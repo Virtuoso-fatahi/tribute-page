@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open San", sans-serif;
+}
+
+#main{
+    background-color: rgb(239, 238, 238);
+    margin: 30px 5px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+}
+
+#title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#title h1{
+    /* margin-top: 50px; */
+    padding-top: 40px;
+}
+
+#img-div{
+    background-color: #fff;
+    padding: 40px 0 10px 0;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#tribute-info{
+    width: 50%;
+    margin: 50px auto 20px auto;
+}
+
+#tribute-info h4{
+    text-align: center;
+}
+
+#tribute-info li:not(.no-list){
+    margin-top: 20px;
+}
+
+#tribute-info .no-list{
+    list-style: none;
+}
+
+#tribute-info .no-list:not(.name-list){
+    margin-top: 50px;
+}
+
+#tribute-info .name-list{
+    margin-top: 10px;
+}
+
+#main h4{
+    text-align: center;
+}
+
